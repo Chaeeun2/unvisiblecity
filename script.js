@@ -13,8 +13,8 @@ function blue1() {
     $('.blue2').css('background', 'rgba(128, 0, 255, 0)')
     $('.blue1').css('background', 'rgba(128, 0, 255, 1)')
     $('.blue4').css('opacity', '1')
-    $('.blue5').css('opacity', '0.2')
-    $('.blue6').css('opacity', '0.2')
+    $('.blue5').css('opacity', '0.4')
+    $('.blue6').css('opacity', '0.4')
 }
 
 function blue2() {
@@ -22,8 +22,8 @@ function blue2() {
     $('.blue3').css('background', 'rgba(128, 0, 255, 0)')
     $('.blue2').css('background', 'rgba(128, 0, 255, 1)')
     $('.blue5').css('opacity', '1')
-    $('.blue4').css('opacity', '0.2')
-    $('.blue6').css('opacity', '0.2')
+    $('.blue4').css('opacity', '0.4')
+    $('.blue6').css('opacity', '0.4')
 }
 
 function blue3() {
@@ -31,8 +31,8 @@ function blue3() {
     $('.blue1').css('background', 'rgba(128, 0, 255, 0)')
     $('.blue3').css('background', 'rgba(128, 0, 255, 1)')
     $('.blue6').css('opacity', '1')
-    $('.blue4').css('opacity', '0.2')
-    $('.blue5').css('opacity', '0.2')
+    $('.blue4').css('opacity', '0.4')
+    $('.blue5').css('opacity', '0.4')
 }
 
 $(document).ready(function () {
