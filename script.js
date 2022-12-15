@@ -13,8 +13,8 @@ function blue1() {
     $('.blue2').css('background', 'rgba(128, 0, 255, 0)')
     $('.blue1').css('background', 'rgba(128, 0, 255, 1)')
     $('.blue4').css('opacity', '1')
-    $('.blue5').css('opacity', '0.4')
-    $('.blue6').css('opacity', '0.4')
+    $('.blue5').css('opacity', '0.3')
+    $('.blue6').css('opacity', '0.3')
 }
 
 function blue2() {
@@ -22,8 +22,8 @@ function blue2() {
     $('.blue3').css('background', 'rgba(128, 0, 255, 0)')
     $('.blue2').css('background', 'rgba(128, 0, 255, 1)')
     $('.blue5').css('opacity', '1')
-    $('.blue4').css('opacity', '0.4')
-    $('.blue6').css('opacity', '0.4')
+    $('.blue4').css('opacity', '0.3')
+    $('.blue6').css('opacity', '0.3')
 }
 
 function blue3() {
@@ -31,8 +31,8 @@ function blue3() {
     $('.blue1').css('background', 'rgba(128, 0, 255, 0)')
     $('.blue3').css('background', 'rgba(128, 0, 255, 1)')
     $('.blue6').css('opacity', '1')
-    $('.blue4').css('opacity', '0.4')
-    $('.blue5').css('opacity', '0.4')
+    $('.blue4').css('opacity', '0.3')
+    $('.blue5').css('opacity', '0.3')
 }
 
 $(document).ready(function () {
@@ -47,3 +47,179 @@ function scroll() {
 
 setTimeout(scroll, 2000)
 
+$('.n01').click(function click(event) {
+    var n = $("#n01")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n02').click(function click(event) {
+    var n = $("#n02")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n03').click(function click(event) {
+    var n = $("#n03")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n04').click(function click(event) {
+    var n = $("#n04")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n05').click(function click(event) {
+    var n = $("#n05")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n06').click(function click(event) {
+    var n = $("#n06")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n07').click(function click(event) {
+    var n = $("#n07")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n08').click(function click(event) {
+    var n = $("#n08")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n09').click(function click(event) {
+    var n = $("#n09")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n10').click(function click(event) {
+    var n = $("#n10")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n11').click(function click(event) {
+    var n = $("#n11")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n12').click(function click(event) {
+    var n = $("#n12")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n13').click(function click(event) {
+    var n = $("#n13")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+$('.n14').click(function click(event) {
+    var n = $("#n14")
+    var x = event.clientX - 50;
+    var y = event.clientY;
+    n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
+    if (x >= 200) {
+        n.css("text-align", "right")
+    }
+})
+
+function img01() {
+    $(".secondimg").attr("src", "resource/01.jpg")
+}
+
+function img02() {
+    $(".secondimg").attr("src", "resource/02.jpg")
+}
+
+function img03() {
+    $(".secondimg").attr("src", "resource/08.jpg")
+}
+
+function img04() {
+    $(".secondimg").attr("src", "resource/09.jpg")
+}
+
+function img05() {
+    $(".secondimg").attr("src", "resource/12.jpg")
+}
+
+function img06() {
+    $(".secondimg").attr("src", "resource/14.jpg")
+}
+
+
+function imgchange() {
+    setTimeout(img02, 4000)
+    setTimeout(img03, 8000)
+    setTimeout(img04, 12000)
+    setTimeout(img05, 16000)
+    setTimeout(img06, 20000)
+    setTimeout(img01, 24000)
+}
+
+imgchange();
+setInterval(imgchange, 24000);
