@@ -35,11 +35,14 @@ function blue3() {
     $('.blue5').css('opacity', '0.3')
 }
 
-$(document).ready(function () {
-    setInterval(blue1, 1000);
-    setInterval(blue2, 2000);
-    setInterval(blue3, 3000);
-})
+function words() {
+    setTimeout(blue1, 1000);
+    setTimeout(blue2, 2000);
+    setTimeout(blue3, 3000);
+}
+
+words();
+setInterval(words, 3000);
 
 function scroll() {
     $("#first").animate({ bottom: "0px" }, 50000, 'linear');
