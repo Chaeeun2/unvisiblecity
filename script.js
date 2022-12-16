@@ -48,7 +48,7 @@ function scroll() {
     $("#first").animate({ bottom: "0px" }, 50000, 'linear');
 }
 
-setTimeout(scroll, 2000)
+setTimeout(scroll, 4000)
 
 $('.n01').click(function click(event) {
     var n = $("#n01")
@@ -122,7 +122,7 @@ $('.n07').click(function click(event) {
 
 $('.n08').click(function click(event) {
     var n = $("#n08")
-    var x = event.clientX - 50;
+    var x = event.clientX;
     var y = event.clientY;
     n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
     if (x >= 200) {
@@ -152,7 +152,7 @@ $('.n10').click(function click(event) {
 
 $('.n11').click(function click(event) {
     var n = $("#n11")
-    var x = event.clientX - 50;
+    var x = event.clientX;
     var y = event.clientY;
     n.css({ "top": y, "left": x, "display": "inline-block", "position": "fixed" }).show();
     if (x >= 200) {

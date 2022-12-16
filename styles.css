@@ -74,7 +74,7 @@ body {
 .sentence {
     display: none;
     z-index: 99;
-    font-size: 1.5em;
+    font-size: 1.4em;
     word-break: keep-all;
 }
 
