@@ -214,6 +214,31 @@ function img06() {
     $(".secondimg").attr("src", "resource/14.jpg")
 }
 
+function img01() {
+    $(".thirdimg").attr("src", "resource/01-1.jpg")
+}
+
+function img02() {
+    $(".thirdimg").attr("src", "resource/02-1.jpg")
+}
+
+function img03() {
+    $(".thirdimg").attr("src", "resource/08-1.jpg")
+}
+
+function img04() {
+    $(".thirdimg").attr("src", "resource/09-1.jpg")
+}
+
+function img05() {
+    $(".thirdimg").attr("src", "resource/12-1.jpg")
+}
+
+function img06() {
+    $(".thirdimg").attr("src", "resource/14-1.jpg")
+}
+
+
 
 function imgchange() {
     setTimeout(img02, 4000)

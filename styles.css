@@ -101,3 +101,55 @@ body {
     width: 100%;
     padding: 0.1em;
 }
+
+#third {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    #first {
+        font-size: 5.5em;
+        position: absolute;
+        text-align: center;
+        z-index: 97;
+        padding: 0.4em 0.2em;
+        width: 95vw;
+        mix-blend-mode: darken;
+        margin-top: 0.1em;
+    }
+
+    #second {
+        display: none;
+    }
+
+    #third {
+        display: inline;
+        position: fixed;
+        font-size: 2.5em;
+        color: rgba(128, 0, 255, 0.2);
+        color: transparent;
+        text-align: center;
+        opacity: 0.85;
+        -webkit-text-stroke: 1.5px rgb(128, 0, 255);
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        z-index: 95;
+        mix-blend-mode: darken;
+    }
+
+    #third img {
+        width: 100%;
+    }
+
+    .sentence {
+        display: none;
+        z-index: 99;
+        font-size: 2.5em;
+        word-break: keep-all;
+    }
+
+    .notice {
+        font-size: 2.3em;
+    }
+}
